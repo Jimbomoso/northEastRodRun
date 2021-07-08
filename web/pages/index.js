@@ -1,32 +1,18 @@
 // index.js
-import Link from 'next/link'
-import groq from 'groq'
-import client from '../client'
+import Head from "next/head";
 
-const Index = (props) => {
-    const { posts = [] } = props
-    return (
-      <div>
-        <h1>Welcome to a blog!</h1>
-        {posts.map(
-          ({ _id, title = '', slug = '', _updatedAt = '' }) =>
-            slug && (
-              <li key={_id}>
-                <Link href="/post/[slug]" as={`/post/${slug.current}`}>
-                  <a>{title}</a>
-                </Link>{' '}
-                ({new Date(_updatedAt).toDateString()})
-              </li>
-            )
-        )}
-      </div>
-    )
-}
+import Layout from "../components/layout";
+import Homehero from "../components/homehero";
 
-Index.getInitialProps = async () => ({
-    posts: await client.fetch(groq`
-      *[_type == "post" && publishedAt < now()]|order(publishedAt desc)
-    `)
-})
-
-export default Index
+export default function Index() {
+  return (
+    <div>
+      <Layout>
+        <Head>
+          <title> NERR - Northeast Rod Run </title>
+        </Head>
+        <Homehero />
+      </Layout>
+    </div>
+  );
+};
