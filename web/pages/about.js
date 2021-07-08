@@ -3,9 +3,9 @@ import Image from 'next/image'
 import Layout from "../components/layout";
 import Head from "next/head";
 import Container from "../components/container";
-import rodrun2 from "../public/rodrun2.jpeg";
-import rodrun3 from "../public/rodrun3.jpg";
-import rodrun5 from "../public/rodrun5.jpg";
+// import rodrun2 from "../public/rodrun2.jpeg";
+// import rodrun3 from "../public/rodrun3.jpg";
+// import rodrun5 from "../public/rodrun5.jpg";
 
 export default function About() {
   return (
@@ -39,13 +39,13 @@ export default function About() {
                 </p>
               </div>
               <div className="w-full md:w-1/2">
-                <Image src={rodrun2} alt="picture of trucks" />
+                {/* <Image src={rodrun2} alt="picture of trucks" /> */}
               </div>
             </div>
 
             <div className="flex items-center flex-wrap mb-20">
               <div className="w-full md:w-1/2">
-                <Image src={rodrun3} alt="Reporting" />
+                {/* <Image src={rodrun3} alt="Reporting" /> */}
               </div>
               <div className="w-full md:w-1/2 pl-10">
                 <h4 className="text-3xl text-gray-800 font-bold mb-3">Events</h4>
@@ -87,7 +87,7 @@ export default function About() {
                 </p>
               </div>
               <div className="w-full md:w-1/2">
-                <Image src={rodrun5} alt="Syncing" />
+                {/* <Image src={rodrun5} alt="Syncing" /> */}
               </div>
             </div>
           </section>
