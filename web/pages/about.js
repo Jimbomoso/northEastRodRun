@@ -16,7 +16,7 @@ export default function About() {
             <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
               About
             </h2>
-            <div className="flex items-center flex-wrap mb-20">
+            <div className="flex items-center flex-wrap mb-10">
               <div className="w-full md:w-1/2">
                 <h4 className="text-3xl text-gray-800 font-bold mb-3">
                   Founded
@@ -40,7 +40,11 @@ export default function About() {
               <div className="w-full md:w-1/2">
                 <Image
                   src="/rodrun2.jpeg"
-                  width={400}
+                  width={720}
+                  height={540}
+                  loading="lazy"
+                  quality={100}
+                  // sizes="(max-width: 500px) 100vw, (max-width: 1023px) 48vw, 23vw"
                 />
               </div>
             </div>
@@ -49,7 +53,11 @@ export default function About() {
               <div className="w-full md:w-1/2">
                 <Image
                   src="/rodrun5.JPG"
-                  width={500}
+                  width={3024}
+                  height={3024}
+                  loading="lazy"
+                  quality={100}
+                  // sizes="(max-width: 600px) 100vw, (max-width: 1023px) 48vw, 23vw"
                 />
               </div>
               <div className="w-full md:w-1/2 pl-10">
@@ -98,7 +106,11 @@ export default function About() {
               <div className="w-full md:w-1/2">
                 <Image
                   src="/rodrun1.jpg"
-                  width={350}
+                  width={1024}
+                  height={682}
+                  loading="lazy"
+                  quality={100}
+                  // sizes="(max-width: 600px) 100vw, (max-width: 1023px) 48vw, 23vw"
                 />
               </div>
             </div>
