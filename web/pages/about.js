@@ -39,8 +39,7 @@ export default function About() {
               <Image
                   className="md:w-full lg:w-full"
                   src="/rodrun2.jpeg"
-                  height={500}
-                  width={500}
+                  width={400}
                 />
               </div>
             </div>
@@ -50,7 +49,6 @@ export default function About() {
               <Image
                   className="md:w-full lg:w-full"
                   src="/rodrun5.JPG"
-                  height={500}
                   width={500}
                 />
               </div>
@@ -97,8 +95,7 @@ export default function About() {
               <Image
                   className="md:w-full lg:w-full"
                   src="/rodrun1.jpg"
-                  height={500}
-                  width={500}
+                  width={350}
                 />
               </div>
             </div>
