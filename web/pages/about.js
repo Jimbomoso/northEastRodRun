@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from 'next/image'
+import Image from "next/image";
 import Layout from "../components/layout";
 import Head from "next/head";
 import Container from "../components/container";
@@ -18,7 +18,9 @@ export default function About() {
             </h2>
             <div className="flex items-center flex-wrap mb-20">
               <div className="w-full md:w-1/2">
-                <h4 className="text-3xl text-gray-800 font-bold mb-3">Founded</h4>
+                <h4 className="text-3xl text-gray-800 font-bold mb-3">
+                  Founded
+                </h4>
                 <p className="text-gray-600 mb-8">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -36,8 +38,7 @@ export default function About() {
                 </p>
               </div>
               <div className="w-full md:w-1/2">
-              <Image
-                  className="md:w-full lg:w-full"
+                <Image
                   src="/rodrun2.jpeg"
                   width={400}
                 />
@@ -46,16 +47,17 @@ export default function About() {
 
             <div className="flex items-center flex-wrap mb-20">
               <div className="w-full md:w-1/2">
-              <Image
-                  className="md:w-full lg:w-full"
+                <Image
                   src="/rodrun5.JPG"
                   width={500}
                 />
               </div>
               <div className="w-full md:w-1/2 pl-10">
-                <h4 className="text-3xl text-gray-800 font-bold mb-3">Events</h4>
+                <h4 className="text-3xl text-gray-800 font-bold mb-3">
+                  Events
+                </h4>
                 <p className="text-gray-600 mb-8">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Elementum eu facilisis sed odio morbi quis commodo odio
                   aenean. Ornare quam viverra orci sagittis eu volutpat odio.
@@ -74,9 +76,11 @@ export default function About() {
 
             <div className="flex items-center flex-wrap mb-20">
               <div className="w-full md:w-1/2">
-                <h4 className="text-3xl text-gray-800 font-bold mb-3">Charity</h4>
+                <h4 className="text-3xl text-gray-800 font-bold mb-3">
+                  Charity
+                </h4>
                 <p className="text-gray-600 mb-8">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Elementum eu facilisis sed odio morbi quis commodo odio
                   aenean. Ornare quam viverra orci sagittis eu volutpat odio.
@@ -92,8 +96,7 @@ export default function About() {
                 </p>
               </div>
               <div className="w-full md:w-1/2">
-              <Image
-                  className="md:w-full lg:w-full"
+                <Image
                   src="/rodrun1.jpg"
                   width={350}
                 />
