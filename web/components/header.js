@@ -1,5 +1,4 @@
 import Link from "next/link";
-// import "tailwindcss/tailwind.css";
 import Container from "../components/container";
 
 export default function Header() {

@@ -1,5 +1,5 @@
 import groq from 'groq'
-import client from '../client'
+import client from '../lib/sanity'
 import Link from 'next/link'
 
 const Events = (props) => {

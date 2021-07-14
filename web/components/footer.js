@@ -25,7 +25,7 @@ export default function Footer() {
                   Help
                 </a>
               </li>
-              <li class="mt-2">
+              <li className="mt-2">
                 <a
                   href="#"
                   className="hover:underline text-gray-600 hover:text-orange-500"
