@@ -1,11 +1,11 @@
 {
   "root": true,
-  "project": {
-    "name": "northEastRodRun"
-  },
   "api": {
     "projectId": "z6z6hq4k",
     "dataset": "production"
+  },
+  "project": {
+    "name": "northEastRodRun"
   },
   "plugins": [
     "@sanity/base",
