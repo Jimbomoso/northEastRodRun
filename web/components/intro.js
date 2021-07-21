@@ -4,9 +4,9 @@
       <h1 className="text-6xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8">
         Next Event:
       </h1>
-      {/* <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        Events!
-      </h4> */}
+      <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
+        Click any event for details
+      </h4>
     </section>
   )
 }

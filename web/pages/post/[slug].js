@@ -2,7 +2,6 @@ import { useRouter } from 'next/router'
 import ErrorPage from 'next/error'
 import Container from '../../components/container'
 import PostBody from '../../components/post-body'
-import MoreStories from '../../components/more-stories'
 import PostHeader from '../../components/post-header'
 import Comments from '../../components/comments'
 import Form from '../../components/form'
@@ -32,7 +31,7 @@ export default function Post({ post, comments, morePosts, preview }) {
                 </title>
                 {/* <meta property="og:image" content={post.ogImage.url} /> */}
               </Head>
-              <PostHeader
+              <PostHeader 
                 title={post.title}
                 coverImage={post.coverImage}
                 date={post.date}
@@ -43,7 +42,6 @@ export default function Post({ post, comments, morePosts, preview }) {
             <Comments comments={post.comments} />
             <Form _id={post._id} />
             <SectionSeparator />
-            {morePosts.length > 0 && <MoreStories posts={morePosts} />}
           </>
         )}
       </Container>
