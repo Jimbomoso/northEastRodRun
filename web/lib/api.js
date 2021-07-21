@@ -124,7 +124,7 @@ export async function getAllPostsWithSlug() {
 
 export async function getAllPostsForHome(preview) {
   const results = await getClient(preview)
-    .fetch(`*[_type == "post"] | order(date desc, _updatedAt desc){
+    .fetch(`*[_type == "post"] | order(date desc, _createdAt desc){
       ${postFields}
     }`)
   return getUniquePosts(results)
