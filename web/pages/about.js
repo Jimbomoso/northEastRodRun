@@ -17,28 +17,28 @@ export default function About() {
               About
             </h2>
             <div className="flex items-center flex-wrap mb-10">
-              <div className="w-full md:w-1/2">
-                <h4 className="text-3xl text-gray-800 font-bold mb-3">
+              <div className="w-full">
+                <h4 className="text-3xl text-gray-800 font-bold mb-5 p-5">
                   Founded
                 </h4>
                 <p className="text-gray-600 mb-8">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Elementum eu facilisis sed odio morbi quis commodo odio
-                  aenean. Ornare quam viverra orci sagittis eu volutpat odio.
-                  Urna nunc id cursus metus aliquam. Aliquam purus sit amet
-                  luctus venenatis. Amet nisl purus in mollis nunc. Sociis
-                  natoque penatibus et magnis dis parturient montes nascetur
-                  ridiculus. Eget est lorem ipsum dolor sit. Tincidunt lobortis
-                  feugiat vivamus at augue eget arcu dictum. Quam nulla
-                  porttitor massa id neque. Facilisi etiam dignissim diam quis
-                  enim. Aliquam faucibus purus in massa tempor. Sed libero enim
-                  sed faucibus. Neque laoreet suspendisse interdum consectetur.
-                  Sagittis orci a scelerisque purus semper eget duis at tellus.
+                  NERR started in 2008 as a group of friends wanting to do a
+                  Power Tour-type cruise but not wanting to travel so far for
+                  Power Tour. That first year had 14 vehicles in attendance.
+                  It’s grown a little, but hasn’t evolved much since the
+                  beginning, and we think that’s a good thing. The only very
+                  noteworthy addition (starting in 2016) was making the cruise a
+                  (voluntary) cruise for charity (see FAQ for details). It’s a
+                  very chill cruise with great people and great stops along the
+                  way. Many participants make friendships that continue through
+                  the year And the cruise!….each day is always amazing; an
+                  awesome route along handpicked backroads through some of the
+                  best scenery the Northeast has to offer.
                 </p>
               </div>
-              <div className="w-full md:w-1/2">
+              <div className="w-full">
                 <Image
+                  layout="responsive"
                   src="/rodrun2.jpeg"
                   width={720}
                   height={540}
@@ -46,67 +46,25 @@ export default function About() {
                   quality={100}
                 />
               </div>
-            </div>
-
-            <div className="flex items-center flex-wrap mb-20">
-              <div className="w-full md:w-1/2">
+              <div>
+              <h4 className="text-3xl text-gray-800 font-bold p-5 mb-5">Events</h4>
+              <p className="text-gray-600 mb-8">
+                Every year NERR does 1 or two cruises, although usually just
+                one. The duration is usually between 3 and 5 days. Each night is
+                at a different hotel and each cruise (between hotels) is
+                somewhere between 175 and 225 miles. There is at least one gas
+                stop and sometimes special interest stops along the way
+                (museums, hot rod shops, breweries, etc). Hotel information is
+                posted in the Events section and each days route and itineraries
+                are also posted there as the Run approaches.
+              </p>
+              </div>
+              <div className="w-full">
                 <Image
-                  src="/rodrun5.JPG"
-                  width={3024}
-                  height={3024}
-                  loading="lazy"
-                  quality={100}
-                  // sizes="(max-width: 600px) 100vw, (max-width: 1023px) 48vw, 23vw"
-                />
-              </div>
-              <div className="w-full md:w-1/2 pl-10">
-                <h4 className="text-3xl text-gray-800 font-bold mb-3">
-                  Events
-                </h4>
-                <p className="text-gray-600 mb-8">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Elementum eu facilisis sed odio morbi quis commodo odio
-                  aenean. Ornare quam viverra orci sagittis eu volutpat odio.
-                  Urna nunc id cursus metus aliquam. Aliquam purus sit amet
-                  luctus venenatis. Amet nisl purus in mollis nunc. Sociis
-                  natoque penatibus et magnis dis parturient montes nascetur
-                  ridiculus. Eget est lorem ipsum dolor sit. Tincidunt lobortis
-                  feugiat vivamus at augue eget arcu dictum. Quam nulla
-                  porttitor massa id neque. Facilisi etiam dignissim diam quis
-                  enim. Aliquam faucibus purus in massa tempor. Sed libero enim
-                  sed faucibus. Neque laoreet suspendisse interdum consectetur.
-                  Sagittis orci a scelerisque purus semper eget duis at tellus.
-                </p>
-              </div>
-            </div>
-
-            <div className="flex items-center flex-wrap mb-20">
-              <div className="w-full md:w-1/2">
-                <h4 className="text-3xl text-gray-800 font-bold mb-3">
-                  Charity
-                </h4>
-                <p className="text-gray-600 mb-8">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Elementum eu facilisis sed odio morbi quis commodo odio
-                  aenean. Ornare quam viverra orci sagittis eu volutpat odio.
-                  Urna nunc id cursus metus aliquam. Aliquam purus sit amet
-                  luctus venenatis. Amet nisl purus in mollis nunc. Sociis
-                  natoque penatibus et magnis dis parturient montes nascetur
-                  ridiculus. Eget est lorem ipsum dolor sit. Tincidunt lobortis
-                  feugiat vivamus at augue eget arcu dictum. Quam nulla
-                  porttitor massa id neque. Facilisi etiam dignissim diam quis
-                  enim. Aliquam faucibus purus in massa tempor. Sed libero enim
-                  sed faucibus. Neque laoreet suspendisse interdum consectetur.
-                  Sagittis orci a scelerisque purus semper eget duis at tellus.
-                </p>
-              </div>
-              <div className="w-full md:w-1/2">
-                <Image
-                  src="/rodrun1.jpg"
-                  width={1024}
-                  height={682}
+                  layout="responsive"
+                  src="/rodrun3.JPG"
+                  width={756}
+                  height={1008}
                   loading="lazy"
                   quality={100}
                   // sizes="(max-width: 600px) 100vw, (max-width: 1023px) 48vw, 23vw"

@@ -1,13 +1,21 @@
-import Image from 'next/image'
-import rodrun4 from "../public/rodrun4.jpg"
+import Image from "next/image";
+import rodrun1 from "../public/rodrun1.jpg";
 
 export default function Homehero() {
   return (
-      <div className="relative">
-          <div className="absolute inset-0 z-10 flex justify-center items-end p-10 text-6xl text-white font-semibold">
-            <p> Welcome to Northeast Rod Run</p>
-          </div>
-        <Image className="md:w-full lg:w-full" src={rodrun4} />
+    <div>
+      <div className="relative container mx-auto">
+        <div className="absolute inset-10 z-50 flex justify-center items-start text-xl md:text-6xl text-white font-semibold">
+          <p> Welcome to Northeast Rod Run</p>
+        </div>
+
+        <Image
+          layout="responsive"
+          objectFit="contain"
+          src={rodrun1}
+          alt="Picture of cars driving"
+        />
       </div>
+    </div>
   );
 }
