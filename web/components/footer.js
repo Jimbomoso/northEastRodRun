@@ -1,4 +1,5 @@
 import Container from "./container";
+import Link from "next/link";
 // import { EXAMPLE_PATH } from "../lib/constants";
 
 export default function Footer() {
@@ -10,14 +11,12 @@ export default function Footer() {
             <h5 className="uppercase mb-6 font-bold">Links</h5>
             <ul className="mb-4">
               <li className="mt-2">
-                <a
-                  href="#"
-                  className="hover:underline text-gray-600 hover:text-orange-500"
-                >
-                  FAQ
-                </a>
+                <Link href="/faq">
+                  <a className="hover:underline text-gray-600 hover:text-orange-500">FAQ</a>
+                </Link>
               </li>
-              <li className="mt-2">
+
+              {/* <li className="mt-2">
                 <a
                   href="#"
                   className="hover:underline text-gray-600 hover:text-orange-500"
@@ -32,7 +31,7 @@ export default function Footer() {
                 >
                   Support
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="w-full md:w-1/4 text-center md:text-left">
@@ -96,14 +95,14 @@ export default function Footer() {
                   About Us
                 </a>
               </li>
-              <li className="mt-2">
+              {/* <li className="mt-2">
                 <a
                   href="#"
                   className="hover:underline text-gray-600 hover:text-orange-500"
                 >
                   Contact
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

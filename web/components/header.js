@@ -23,8 +23,8 @@ function Header() {
                     <a className="px-4 hover:text-gray-800">About</a>
                   </Link>
 
-                  <Link href="/contact">
-                    <a className="px-4 hover:text-gray-800">Contact</a>
+                  <Link href="/faq">
+                    <a className="px-4 hover:text-gray-800">FAQ</a>
                   </Link>
                 </div>
               </div>
@@ -102,8 +102,8 @@ function Header() {
                   <a className="p-4 hover:text-gray-800 block">About</a>
                 </Link>
 
-                <Link href="/contact">
-                  <a className="p-4 hover:text-gray-800 block">Contact</a>
+                <Link href="/faq">
+                  <a className="p-4 hover:text-gray-800 block">FAQ</a>
                 </Link>
               </div>
             </div>
