@@ -15,6 +15,10 @@ function Header() {
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
+                  <Link href="/">
+                    <a className="px-4 hover:text-gray-800">Home</a>
+                  </Link>
+
                   <Link href="/events">
                     <a className="px-4 hover:text-gray-800">Events</a>
                   </Link>
@@ -111,8 +115,7 @@ function Header() {
         </Transition>
       </nav>
       <main>
-        <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-        </div>
+        <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8"></div>
       </main>
     </div>
   );
