@@ -42,8 +42,8 @@ export default function About() {
                   src="/rodrun2.jpeg"
                   width={720}
                   height={540}
-                  loading="lazy"
-                  quality={100}
+                  loading="eager"
+                  quality={50}
                 />
               </div>
               <div>
@@ -65,9 +65,8 @@ export default function About() {
                   src="/rodrun3.JPG"
                   width={756}
                   height={1008}
-                  loading="lazy"
-                  quality={100}
-                  // sizes="(max-width: 600px) 100vw, (max-width: 1023px) 48vw, 23vw"
+                  loading="eager"
+                  quality={50}
                 />
               </div>
             </div>
