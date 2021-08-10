@@ -1,56 +1,191 @@
-import Link from "next/link";
-import Container from "../components/container";
+// import React, { useState } from "react";
+// import Link from "next/link";
+// import Container from "../components/container";
+// import { Transition } from "@headlessui/react";
 
-export default function Header() {
+// export default function Header() {
+//   const [isOpen, setIsOpen ] = useState(false);
+//   return (
+//     <Container>
+//       <nav>
+//         <div className="container mx-auto px-6 py-2 flex justify-between items-center">
+//           <a className="font-bold text-2xl lg:text-4xl" href="#">
+//             NERR
+//           </a>
+//           <div className="block lg:hidden">
+//             <button
+//               onClick={() => setIsOpen(!isOpen)}
+//               className="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-800 hover:border-teal-500 appearance-none focus:outline-none"
+//               type="button"
+//             >
+//               <svg
+//                 className="fill-current h-3 w-3"
+//                 viewBox="0 0 20 20"
+//                 xmlns="http://www.w3.org/2000/svg"
+//               >
+//                 <title>Menu</title>
+//                 <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+//               </svg>
+//             </button>
+//           </div>
+
+//           <div className="hidden lg:block">
+//             <ul className="inline-flex">
+//               <li>
+//                 <a className="px-4 font-bold" href="/">
+//                   Home
+//                 </a>
+//               </li>
+//               <li>
+//                 <Link href="/events">
+//                   <a className="px-4 hover:text-gray-800">Events</a>
+//                 </Link>
+//               </li>
+//               <li>
+//                 <Link href="/about">
+//                   <a className="px-4 hover:text-gray-800">About</a>
+//                 </Link>
+//               </li>
+//               <li>
+//                 <a className="px-4 hover:text-gray-800">Contact</a>
+//               </li>
+//             </ul>
+//           </div>
+//         </div>
+//       </nav>
+//     </Container>
+//   );
+// }
+
+import React, { useState } from "react";
+import { Transition } from "@headlessui/react";
+import Link from "next/link";
+
+function Header() {
+  const [isOpen, setIsOpen] = useState(false);
   return (
-    <Container>      
+    <div>
       <nav>
-        <div className="container mx-auto px-6 py-2 flex justify-between items-center">
-          <a className="font-bold text-2xl lg:text-4xl" href="#">
-            NERR
-          </a>
-          <div className="block lg:hidden">
-            <button className="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-800 hover:border-teal-500 appearance-none focus:outline-none">
-              <svg
-                className="fill-current h-3 w-3"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-16">
+            <div className="flex items-center">
+              <div className="font-bold text-2xl lg:text-4xl" href="#">
+                NERR
+              </div>
+              <div className="hidden md:block">
+                <div className="ml-10 flex items-baseline space-x-4">
+                  <Link href="/events">
+                    <a className="px-4 hover:text-gray-800">Events</a>
+                  </Link>
+
+                  <Link href="/about">
+                    <a className="px-4 hover:text-gray-800">About</a>
+                  </Link>
+
+                  <Link href="/contact">
+                    <a className="px-4 hover:text-gray-800">Contact</a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="-mr-2 flex md:hidden">
+              <button
+                onClick={() => setIsOpen(!isOpen)}
+                type="button"
+                className="bg-gray-900 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                aria-controls="mobile-menu"
+                aria-expanded="false"
               >
-                <title>Menu</title>
-                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-              </svg>
-            </button>
-          </div>
-          <div className="hidden lg:block">
-            <ul className="inline-flex">
-              <li>
-                <a className="px-4 font-bold" href="/">
-                  Home
-                </a>
-              </li>
-              <li>
-                <Link href="/events">
-                <a className="px-4 hover:text-gray-800">
-                  Events
-                </a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/about">
-                <a className="px-4 hover:text-gray-800">
-                  About
-                </a>
-                </Link>
-              </li>
-              <li>
-                <a className="px-4 hover:text-gray-800">
-                  Contact
-                </a>
-              </li>
-            </ul>
+                <span className="sr-only">Nav menu</span>
+                {!isOpen ? (
+                  <svg
+                    className="block h-6 w-6"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M4 6h16M4 12h16M4 18h16"
+                    />
+                  </svg>
+                ) : (
+                  <svg
+                    className="block h-6 w-6"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M6 18L18 6M6 6l12 12"
+                    />
+                  </svg>
+                )}
+              </button>
+            </div>
           </div>
         </div>
+
+        <Transition
+          show={isOpen}
+          enter="transition ease-out duration-100 transform"
+          enterFrom="opacity-0 scale-95"
+          enterTo="opacity-100 scale-100"
+          leave="transition ease-in duration-75 transform"
+          leaveFrom="opacity-100 scale-100"
+          leaveTo="opacity-0 scale-95"
+        >
+          {(ref) => (
+            <div
+              className="w-full md:hidden md:flex w-full md:w-auto text-right text-bold mt-5 md:mt-0"
+              id="mobile-menu"
+            >
+              <div className="display-block p-5">
+                <Link href="/">
+                  <a className="p-4 hover:text-gray-800 block">Home</a>
+                </Link>
+                <Link href="/events">
+                  <a className="p-4 hover:text-gray-800 block">Events</a>
+                </Link>
+
+                <Link href="/about">
+                  <a className="p-4 hover:text-gray-800 block">About</a>
+                </Link>
+
+                <Link href="/contact">
+                  <a className="p-4 hover:text-gray-800 block">Contact</a>
+                </Link>
+              </div>
+            </div>
+          )}
+        </Transition>
       </nav>
-    </Container>
+
+      {/* <header className="bg-white shadow">
+        <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+          <h1 className="text-3xl font-bold text-gray-900">Dashboard</h1>
+        </div>
+      </header> */}
+      <main>
+        <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+          {/* <!-- Replace with your content --> */}
+          {/* <div className="px-4 py-6 sm:px-0">
+            <div className="border-4 border-dashed border-gray-200 rounded-lg h-96"></div>
+          </div> */}
+          {/* <!-- /End replace --> */}
+        </div>
+      </main>
+    </div>
   );
 }
+
+export default Header;
