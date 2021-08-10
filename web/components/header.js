@@ -1,62 +1,3 @@
-// import React, { useState } from "react";
-// import Link from "next/link";
-// import Container from "../components/container";
-// import { Transition } from "@headlessui/react";
-
-// export default function Header() {
-//   const [isOpen, setIsOpen ] = useState(false);
-//   return (
-//     <Container>
-//       <nav>
-//         <div className="container mx-auto px-6 py-2 flex justify-between items-center">
-//           <a className="font-bold text-2xl lg:text-4xl" href="#">
-//             NERR
-//           </a>
-//           <div className="block lg:hidden">
-//             <button
-//               onClick={() => setIsOpen(!isOpen)}
-//               className="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-800 hover:border-teal-500 appearance-none focus:outline-none"
-//               type="button"
-//             >
-//               <svg
-//                 className="fill-current h-3 w-3"
-//                 viewBox="0 0 20 20"
-//                 xmlns="http://www.w3.org/2000/svg"
-//               >
-//                 <title>Menu</title>
-//                 <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-//               </svg>
-//             </button>
-//           </div>
-
-//           <div className="hidden lg:block">
-//             <ul className="inline-flex">
-//               <li>
-//                 <a className="px-4 font-bold" href="/">
-//                   Home
-//                 </a>
-//               </li>
-//               <li>
-//                 <Link href="/events">
-//                   <a className="px-4 hover:text-gray-800">Events</a>
-//                 </Link>
-//               </li>
-//               <li>
-//                 <Link href="/about">
-//                   <a className="px-4 hover:text-gray-800">About</a>
-//                 </Link>
-//               </li>
-//               <li>
-//                 <a className="px-4 hover:text-gray-800">Contact</a>
-//               </li>
-//             </ul>
-//           </div>
-//         </div>
-//       </nav>
-//     </Container>
-//   );
-// }
-
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 import Link from "next/link";
@@ -169,19 +110,8 @@ function Header() {
           )}
         </Transition>
       </nav>
-
-      {/* <header className="bg-white shadow">
-        <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-bold text-gray-900">Dashboard</h1>
-        </div>
-      </header> */}
       <main>
         <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-          {/* <!-- Replace with your content --> */}
-          {/* <div className="px-4 py-6 sm:px-0">
-            <div className="border-4 border-dashed border-gray-200 rounded-lg h-96"></div>
-          </div> */}
-          {/* <!-- /End replace --> */}
         </div>
       </main>
     </div>
