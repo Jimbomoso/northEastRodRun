@@ -44,7 +44,6 @@ export default function About() {
                   height={540}
                   loading="lazy"
                   quality={100}
-                  // sizes="(max-width: 500px) 100vw, (max-width: 1023px) 48vw, 23vw"
                 />
               </div>
             </div>
