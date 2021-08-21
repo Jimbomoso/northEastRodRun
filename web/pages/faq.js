@@ -20,7 +20,7 @@ export default function Faq() {
               {" "}
               We always get lots of questions from people wanting to join NERR
               events, about how to join and what we are all about, so we've
-              listed some of the more frequestly asked questions
+              listed some of the more frequestly asked questions.
             </h3>
             <div className="flex items-center flex-wrap mb-10">
               <div className="w-full md:w-full">
@@ -36,7 +36,7 @@ export default function Faq() {
                   of the money we raise through donations, NERR swag sales &
                   raffles go directly to the Lymphoma Research Foundation (LRF).
                   We share links throughout the year to allow people to donate
-                  directly to LRF, if the prefer, so they can get a tax
+                  directly to LRF, if they prefer, so they can get a tax
                   deduction.
                 </p>
                 <h3 className="py-5 font-bold">
@@ -65,19 +65,19 @@ export default function Faq() {
                   following must be mentioned. This event is NOT for imports.
                   Not that we think there is anything wrong with them, but this
                   is not that type of event. This event is NOT for your average
-                  daily driver. If you don't know what that menad, then this
-                  event is probably not for you. If youstill aren't sure what
+                  daily driver. If you don't know what that means, then this
+                  event is probably not for you. If you still aren't sure what
                   we're talking about, go check out our Facebook page (Northeast
                   Rod Run Annual Cruise)and that should nail it down for you.
-                  Just because you buy a new truck, or "regular" car and throw
-                  shiny wheel, or tint your windows & tail lights, that doens't
+                  Just because you buy a new truck, or "regular" car and throw a
+                  shiny wheel, or tint your windows & tail lights, that doesn't
                   make it any different. If your ride is front wheel drive,
                   unless is's something real special, chances are that we're not
                   the event for you. There are always exceptions, where people
                   have to take their "Plan B", because something went wrong with
-                  their original ride at the last minute & they couldn't canel
+                  their original ride at the last minute & they couldn't cancel
                   their lodging (we usually get a 3 day window to cancel rooms).
-                  This is NOT Hot Rod Power Tour, so if you're Plan A is still a
+                  This is NOT Hot Rod Power Tour, so if your Plan A is still a
                   year away from being ready, realistically, you never had a
                   Plan A, so this event isn't for you. If any of this upsets
                   you, then you are probably looking at the wrong type of event
@@ -86,7 +86,7 @@ export default function Faq() {
                   qualities that got us to be what we currently are.
                 </p>
                 <h3 className="py-5 font-bold">
-                  WHAT IS THE AVERGE AGE OF ATTENDEES?
+                  WHAT IS THE AVERAGE AGE OF ATTENDEES?
                 </h3>
                 <p className="p-2 text-gray-600 mb-8">
                   We seem to attract a very diverse group, but usually have less
@@ -108,25 +108,25 @@ export default function Faq() {
                   bringing their children along, because we always get a
                   respectable crowd & that is very important to us.
                   Approximately 75 percent of the participants are couples and a
-                  stange little fact is that their have been more daughters
+                  strange little fact is that their have been more daughters
                   brought on these trips than sons.
                 </p>
                 <h3 className="py-5 font-bold">
-                  WHAT TIME TO YOU START EACH MORNING?
+                  WHAT TIME DO YOU START EACH MORNING?
                 </h3>
                 <p className="p-2 text-gray-600 mb-8">
                   The group is usually on the road by 9AM, but depending on the
                   day's route we could possibly be on the road as early as 8AM,
-                  if we have a long day ahead of us. Most of the time will be
+                  if we have a long day ahead of us. Most of the time it will be
                   posted online a couple of weeks before kickoff, but sometimes
                   it is decided at the end of the previous day. If it is decided
                   that NERR will be hitting the road at a certain time, that
-                  doesn't mean we will be metting up in a parking lot at that
+                  doesn't mean we will be meeting up in a parking lot at that
                   time. It means we will be pulling out at that time (A.I.S.
                   time). We can't sit there and wait "just 5 more minutes" for
                   one person, because that one person turns into many people and
                   then it's an hour later and we're still in the parking lot.
-                  That's not fair to everyone who was ready on time.{" "}
+                  That's not fair to everyone who was ready on time.
                 </p>
                 <h3 className="py-5 font-bold">
                   HOW FAR DO YOU TRAVEL EACH DAY?
@@ -150,7 +150,7 @@ export default function Faq() {
                   cruisers, most gas stops are usually within 100 of each other.
                   This also gives people plenty of chances to stretch their legs
                   and refuel their bodies, along with refueling their car's
-                  tanks
+                  tanks.
                 </p>
                 <h3 className="py-5 font-bold">
                   WHAT DO YOU DO FOR FOOD ALONG THE WAY?
@@ -159,7 +159,7 @@ export default function Faq() {
                   Along the road some people just pick up quick eats when we are
                   stopped for gas. Regular sit-down restaurants don't work out
                   well because of our size. Most places won't even accept us
-                  because of our size. some attendees have tried stopping on
+                  because of our size. Some attendees have tried stopping on
                   their own, in smaller groups and it turned into a 2 hour event
                   for them (sometimes even longer) and they end up missing out
                   on some planned stops and driving with the group. Any newbies
@@ -180,7 +180,7 @@ export default function Faq() {
                   will always be announced before we begin to check out the
                   attractions. As an example, if it is decided that we are
                   leaving at 11:30AM, that means that the lead car will be
-                  pulling out at 11:30 (A.I.S. time) and it you're not behind
+                  pulling out at 11:30 (A.I.S. time) and if you're not behind
                   the wheel at that time, you WILL be left behind. This is the
                   only way to keep a larger group together.
                 </p>
@@ -189,7 +189,7 @@ export default function Faq() {
                 </h3>
                 <p className="p-2 text-gray-600 mb-8">
                   As the group gets bigger it does get harder, but everyone
-                  keeps an eye in their rearview mirrow to make sure things are
+                  keeps an eye in their rearview mirror to make sure things are
                   going ok. We try to avoid high traffic areas, so it's easier
                   than one would think to keep everyone together. If we do go
                   through a busy section of traffic (or lots of traffic lights),
@@ -233,9 +233,9 @@ export default function Faq() {
                   hotel parking lots at the end of the day, to enjoy a few
                   frosty cold beverages and talk about the day's activities. We
                   also try to book our lodging in areas that are close to
-                  restaurants, so people can get a good neal in them before
+                  restaurants, so people can get a good meal in them before
                   after hours festivities begin. As often as we can, we try to
-                  book hotels that walking distance to everything in the area,
+                  book hotels that are within walking distance to everything in the area,
                   that way no one needs to get behind the wheel again once we
                   check in.
                 </p>
@@ -243,7 +243,7 @@ export default function Faq() {
                 <p className="p-2 text-gray-600 mb-8">
                   If someone breaks down, people are always willing to pull over
                   and help. It is recommended that everyone pack tools in their
-                  car, so that we can try and fix anyone on the side of the
+                  car, so that we can try and to help fix anyone up on the side of the
                   road. Even if you "know your car is flawless", don't be afraid
                   to pack something extra in case it might be needed by someone
                   else. Also, it's a good idea to bring something that others
@@ -256,7 +256,7 @@ export default function Faq() {
                 </h3>
                 <p className="p-2 text-gray-600 mb-8">
                   Absolutely! It's not always possible for people to get away
-                  for extended periods needed to make the entire event.We have
+                  for extended periods needed to make the entire event. We have
                   had people join us for just one day/night and also as little
                   as just one leg of driving. We get that from a lot of
                   first-timers, then we almost always hear them say "I wish I
