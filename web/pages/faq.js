@@ -263,6 +263,12 @@ export default function Faq() {
                   booked the entire trip. I didn't think it was going to be this
                   much fun". as they leave with regrets.
                 </p>
+                <h3 className="py-5 font-bold">
+                  I HAVE A QUESTION THAT ISN'T HERE.
+                </h3>
+                <p className="p-2 text-gray-600 mb-8">
+                  Please email northeastrodrun@yahoo.com
+                </p>
               </div>
             </div>
           </section>

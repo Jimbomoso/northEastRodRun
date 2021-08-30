@@ -15,23 +15,6 @@ export default function Footer() {
                   <a className="hover:underline text-gray-600 hover:text-orange-500">FAQ</a>
                 </Link>
               </li>
-
-              {/* <li className="mt-2">
-                <a
-                  href="#"
-                  className="hover:underline text-gray-600 hover:text-orange-500"
-                >
-                  Help
-                </a>
-              </li>
-              <li className="mt-2">
-                <a
-                  href="#"
-                  className="hover:underline text-gray-600 hover:text-orange-500"
-                >
-                  Support
-                </a>
-              </li> */}
             </ul>
           </div>
           <div className="w-full md:w-1/4 text-center md:text-left">
@@ -89,20 +72,20 @@ export default function Footer() {
             <ul className="mb-4">
               <li className="mt-2">
                 <a
-                  href="#"
+                  href="/about"
                   className="hover:underline text-gray-600 hover:text-orange-500"
                 >
                   About Us
                 </a>
               </li>
-              {/* <li className="mt-2">
+              <li className="mt-2">
                 <a
                   href="#"
                   className="hover:underline text-gray-600 hover:text-orange-500"
                 >
-                  Contact
+                  Contact: northeastrodrun@yahoo.com
                 </a>
-              </li> */}
+              </li>
             </ul>
           </div>
         </div>

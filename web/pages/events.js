@@ -1,34 +1,3 @@
-// import groq from 'groq'
-// import client from '../lib/sanity'
-// import Link from 'next/link'
-
-// const Events = (props) => {
-//     const { posts = [] } = props
-//     return (
-//       <div>
-//         {posts.map(
-//           ({ _id, title = '', slug = '', _updatedAt = '' }) =>
-//             slug && (
-//               <li key={_id}>
-//                 <Link href="/post/[slug]" as={`/post/${slug.current}`}>
-//                   <a>{title}</a>
-//                 </Link>{' '}
-//                 ({new Date(_updatedAt).toDateString()})
-//               </li>
-//             )
-//         )}
-//       </div>
-//     )
-// }
-
-// Events.getInitialProps = async () => ({
-//     posts: await client.fetch(groq`
-//       *[_type == "post" && publishedAt < now()]|order(publishedAt desc)
-//     `)
-// })
-
-// export default Events
-
 import Container from '../components/container'
 import MoreStories from '../components/more-stories'
 import HeroPost from '../components/hero-post'
