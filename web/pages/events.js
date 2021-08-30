@@ -68,6 +68,6 @@ export default function Events({ allPosts, preview }) {
 export async function getStaticProps({ preview = false }) {
   const allPosts = await getAllPostsForHome(preview)
   return {
-    props: { allPosts, preview },
+    props: { allPosts, preview, revlaidate:1, },
   }
 }
